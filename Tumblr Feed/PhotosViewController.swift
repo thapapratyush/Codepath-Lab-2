@@ -62,10 +62,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
                 if let data = data {
                     if let responseDictionary = try! JSONSerialization.jsonObject(
                         with: data, options:[]) as? NSDictionary {
-                        //print("responseDictionary: \(responseDictionary)")
-                        
-                        // Recall there are two fields in the response dictionary, 'meta' and 'response'.
-                        // This is how we get the 'response' field
                         let responseFieldDictionary = responseDictionary["response"] as! NSDictionary
                         
                         // This is where you will store the returned array of posts in your posts property
@@ -116,7 +112,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("\(posts.count)")
         return posts.count
     }
     
@@ -127,7 +122,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             let imageUrlString = photos[0].value(forKeyPath: "original_size.url") as? String
             if let imageUrl = URL(string: imageUrlString!) {
                 cell.photoView.setImageWith(imageUrl)
-                print("image set")
             } else {
             }
         } else {

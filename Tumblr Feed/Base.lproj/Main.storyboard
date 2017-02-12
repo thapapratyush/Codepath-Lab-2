@@ -22,11 +22,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="189" id="atx-yG-Cad" customClass="PhotoCell" customModule="Tumblr_Feed" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="189" id="atx-yG-Cad" customClass="PhotoCell" customModule="Tumblr_Feed" customModuleProvider="target" colorLabel="IBBuiltInLabel-Red">
                                         <rect key="frame" x="0.0" y="28" width="375" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="atx-yG-Cad" id="alL-2x-fOn">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="188"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="atx-yG-Cad" id="alL-2x-fOn" colorLabel="IBBuiltInLabel-Green">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="188.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="z3P-cv-QST">
@@ -35,7 +35,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.52406907081604004" green="0.78858011960983276" blue="0.81897479295730591" alpha="0.15828565140845072" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="photoView" destination="z3P-cv-QST" id="NGe-Ns-2jU"/>
                                             <segue destination="oul-Ro-1pG" kind="push" id="Nz0-7g-5yg"/>
@@ -44,7 +43,6 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.9241911768913269" green="0.96878319978713989" blue="0.97308474779129028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="oRW-l7-0wr"/>
                     <connections>
