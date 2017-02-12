@@ -1,13 +1,13 @@
 # Lab 2 : Tumblr Feed
 
-Time spent: 3 hours spent in total
+Time spent: 4.5 hours spent in total
 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/2Wkvntf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/IRzfRbw.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -16,7 +16,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 
-    Copyright [2017] [Pratyush Dhungel]
+    Copyright [2017] [Pratyush Thapa]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
